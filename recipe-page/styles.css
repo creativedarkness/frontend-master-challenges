@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'Outfit';
+    src: local('Outfit'),
+    url('assets/fonts/outfit/Outfit-VariableFont_wght.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+  font-family: 'YoungSerif-Regular';
+    src: local('YoungSerif'),
+    url('assets/fonts/young-serif/YoungSerif-Regular.ttf')
+
+}
+
+:root {
+  --clr-neutral-100: hsl(31%, 11%, 95%);
+  --clr-neutral-900: hsl(14, 39%, 36%);
+  --clr-highlight-300: hsl(326, 100%, 99%);
+  --clr-highlight-500: hsl(333, 33%, 33%);
+
+  --ff-base: Outfit, sans-serif;
+  --ff-text: YoungSerif, serif;
+
+  --fs-base: 15px;
+
+  --ff-regular: 400;
+  --ff-bold: 700;
+
+  --fs-300: .825rem;
+  --fs-400: 1rem;
+  --fs-800: 1.5rem;
+}
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
